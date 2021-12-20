@@ -29,4 +29,9 @@ const cognomeUtente = prompt("Qual'è il tuo cognome?");
 const colorePreferitoUtente = prompt("Qual'è il tuo colore preferito?");
     console.log(colorePreferitoUtente);
 
+//4-aggiungo anno 21 alla variabile anno 
 const anno = "21";
+
+//5- raccolgo variabili e scrivo risultato in pagina
+console.log(nomeUtente + cognomeUtente + colorePreferitoUtente + anno);
+
