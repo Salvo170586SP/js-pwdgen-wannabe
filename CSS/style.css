@@ -1,6 +1,14 @@
+
+
+.bg-img{
+    background-image: url('https://cdn131.picsart.com/261308978018202.jpg');
+    background-size: cover;
+}
+
 .box-password{
     width: 100%;
     height: 100px;
-    box-shadow: 4px 4px 15px 1.5px gray;
+    box-shadow: 4px 4px 15px 1.5px black;
+    border-radius: 20px;
     line-height: 100px;
 }
