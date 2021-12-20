@@ -10,7 +10,9 @@ console.log('JS OK');
 3-domando colore preferito all'utente e salvo il colore preferito in una variabile
     *mando in console variabile colore preferito
 
-4- raccolgo variabili e scrivo risultato in pagina
+4-aggiungo anno 21 alla variabile anno
+
+5- raccolgo variabili e scrivo risultato in pagina
 */
 
 
@@ -27,3 +29,4 @@ const cognomeUtente = prompt("Qual'è il tuo cognome?");
 const colorePreferitoUtente = prompt("Qual'è il tuo colore preferito?");
     console.log(colorePreferitoUtente);
 
+const anno = "21";
