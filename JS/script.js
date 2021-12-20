@@ -12,7 +12,7 @@ console.log('JS OK');
 
 4-aggiungo anno 21 alla variabile anno
 
-5- raccolgo variabili e scrivo risultato in pagina
+5- raccolgo variabili e scrivo risultato in pagina all'interno del paragrafo
 */
 
 
@@ -32,6 +32,7 @@ const colorePreferitoUtente = prompt("Qual'è il tuo colore preferito?");
 //4-aggiungo anno 21 alla variabile anno 
 const anno = "21";
 
-//5- raccolgo variabili e scrivo risultato in pagina
-console.log(nomeUtente + cognomeUtente + colorePreferitoUtente + anno);
+//5- raccolgo variabili e scrivo risultato in pagina all'interno del paragrafo
+document.getElementById('passwordGenerate').innerText = nomeUtente + cognomeUtente + colorePreferitoUtente + anno;
+    console.log(nomeUtente + cognomeUtente + colorePreferitoUtente + anno);
 
