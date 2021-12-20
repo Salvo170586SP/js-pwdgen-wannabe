@@ -15,7 +15,7 @@ console.log('JS OK');
 5- raccolgo variabili e scrivo risultato in pagina all'interno del paragrafo
 */
 
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //1-domando nome all'utente e salvo il nome in una variabile
 const nomeUtente = prompt("Qual'è il tuo nome?");
